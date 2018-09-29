@@ -1,0 +1,37 @@
+$primary-border: #000;
+$primary-color: #000;
+.detail{
+  padding: 20px 0; 
+
+  h5,h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__text{
+    p{
+      margin-bottom: 10px;
+      }
+
+    p:nth-of-type(3){
+      strong{
+          margin-right:10px;
+      }
+    }
+  }
+
+  &__button{
+    margin-top:10px;
+    display:flex;
+
+    a{
+      border: 1px solid $primary-border;
+      text-transform: uppercase;
+      padding: 5px;
+      color: $primary-color;
+    }
+    a:nth-of-type(1){ 
+      margin-right: 20px;  
+    }
+  }
+}
